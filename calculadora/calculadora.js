@@ -1,7 +1,6 @@
 const a = Number(prompt("Introduce un primer número"));
 const b = Number(prompt("Introduce un segundo número"));
-
-function mySuma(a, b) {
+export function mySuma(a, b) {
   return a + b;
 }
 
